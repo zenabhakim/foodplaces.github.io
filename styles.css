@@ -1,0 +1,455 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* navigation */
+
+.logo{
+    width: 150px;
+    height: 50px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    position: fixed;
+    padding: 16px;
+    width: 100%;
+    top: 0px;
+}
+
+.nav-link{
+    text-decoration: none;
+
+}
+
+.active, .nav-link:hover{
+    background-color: #deb887;
+
+}
+.nav-link{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #000;
+    padding: 9.6px 20.8px;
+}
+
+ul , li{
+    text-decoration: none;
+    margin: auto;
+    display: flex;
+}
+
+ul{
+    margin-right: 32px;
+}
+
+/* intro */
+
+
+.intro{
+    background-image: url('Bg_2.jpg'); width: 100%; height: 100%;;
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    background-position: -5px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+}
+.intro-heading{
+    color: white;
+    font-weight: bolder;
+    font-size: 56px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.intro-info{
+    text-align: center;
+    font-size: 17.6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.reserv{
+    border: 3px solid burlywood;
+    display: inline-block;
+    color: black;
+    border-radius: 3px;
+    padding: 16px;
+    margin: auto;
+    
+}
+.reserv:hover{
+    background-color: #deb887;
+ 
+}
+
+.reserv a{
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+/* story section */
+
+#story-section{
+    width: 100%;
+}
+.mid{
+    display: flex;
+    justify-content: space-between;
+}
+.h1color{
+    color: #deb887;
+}
+.story-img{
+    max-height: 325px;
+    box-shadow: -12px -12px #deb887;
+    padding-left: 10px;
+}
+.story{
+    width: 55%;
+    text-align: center;
+    font-size: 32px;
+}
+.story-heading{
+    font-size: 32px;
+    padding: 16px;
+}
+.story-subheading{
+    font-size: 16px;
+
+}
+.story-info{
+    font-size: 18px;
+}
+.reserva{
+    border: 3px solid burlywood;
+    display: inline-block;
+    color: black;
+    border-radius: 3px;
+    padding: 8px;
+    padding-top: 5px;
+    margin: auto;
+    
+}
+.reserva:hover{
+    background-color: #deb887;
+ 
+}
+
+.reserva a{
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+}
+
+/* quote section */
+
+.quote-section{
+    height: 304px;
+    background-image: url(Bg_5.jpg);
+    position: relative;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.quote{
+    text-align: center;
+    color: #ffff;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 96px;
+}
+.quote-credit{
+    font-size: 19.2px;
+    text-align: center;
+    padding-left: 320px;
+}
+
+/* menu section */
+.menu-items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#menu-section{
+    text-align: center;
+}
+
+.menu-heading{
+    font-size: xx-large;
+}
+
+.menu-nav{
+    width: 40%;
+    margin-inline: auto;
+}
+
+.menu-nav ul{
+    margin-inline: auto;
+    padding: 10px;
+}
+
+.menu-border{
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    padding: 0 40px;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: black;
+    background-color: #f5f5f5;
+    padding: 9.6px 20.8px;
+    text-transform: uppercase;
+}
+
+.active-menu {
+    background-color: #deb887;
+}
+
+.menu-link:hover{
+    background-color: #deb887;
+}
+
+/* menu items */
+
+.drink1{
+    background-image: url(Drinks_1.jpg); width: 350px; height: 250px;
+}
+.items{
+    background-size: cover;
+    margin: 27px 16px;
+}
+.item-heading{
+    font-size: 25.6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 32px 16px 16px 32px;
+}
+.item-info{
+    font-size: 12.8px;
+    border-bottom: 2px dotted black;
+    padding-bottom: 40px;
+    text-align: left;
+    margin: 8px 32px 32px 32px;
+}
+.price{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 8px 32px 16px 12.8px;
+}
+/* drink 2 */
+.drink2{
+    background-image: url(Drinks_2.jpg);width: 350px; height: 250px;
+}
+/* drink 3 */
+.drink3{
+    background-image: url(Drinks_3.jpg);width: 350px; height: 250px;
+}
+/* lunch 1 */
+.lunch1{
+    background-image: url(Lunch_1.jpg);width: 350px; height: 250px;
+}
+/* lunch 2 */
+.lunch2{
+    background-image: url(Lunch_2.jpg);width: 350px; height: 250px;
+}
+/* lunch 3 */
+.lunch3{
+    background-image: url(Lunch_3.jpg);width: 350px; height: 250px;
+}
+/* dinner 1 */
+.dinner1{
+    background-image: url(Dinner_1.jpg);width: 350px; height: 250px;
+}
+/* dinner 2 */
+.dinner2{
+    background-image: url(Dinner_2.jpg);width: 350px; height: 250px;
+}
+/* dinner 3 */
+.dinner3{
+    background-image: url(Dinner_3.jpg);width: 350px; height: 250px;
+}
+
+/* gallery */
+
+#gallery-section{
+    text-align: center;
+}
+
+.gallery-heading{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 16px;
+}
+.gallery-info{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 48px;
+}
+
+.gallery-img{
+    height: 250px;
+    width: 350px;
+    margin: 24px 16px;
+    transition: width height linear 0.5s;
+}
+.galley-img:hover{
+    width: 310px;
+    height: 210px;
+}
+
+/* customer review */
+.customer-section{
+    text-align: center;
+}
+.customer-heading{
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 16px;
+}
+.customer-info{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 48px;
+}
+.customer-img{
+    width: 10%;
+    border-radius: 100%;
+    border: 1px solid #e4e4e4;
+    padding: 6.4px;
+}
+.customer-name{
+    color: #deb887;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 24px;
+}
+.customer-desig{
+    font-size: 14.4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 12.8px;
+    margin-bottom: 5px;
+}
+.customer-review{
+    font-size: 12.8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 32px;
+    line-height: 25px;
+}
+/* contact info */
+.contact-info{
+    clear: both;
+    margin: auto;
+    background-color: #d0a772;
+    color: #fff;
+}
+.contact{
+    display: inline-block;
+    width: 32%;
+    margin: 24px 0;
+    text-align: center;
+}
+.contact-details{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    text-align: left;
+}
+
+
+/* footer */
+
+.footer{
+    display: inline-flex;
+    overflow: hidden;
+    height: 352px;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9));
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 48px;
+}
+.footer-elements{
+    max-height: 200px;
+    width: 20%;
+    margin: 16px 32px;
+    color: #fff;
+    margin-bottom: 10%;
+}
+.footer-heading{
+    border-bottom: 2px dotted rgba(207,116,113,0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19.2px;
+    font-weight: 100;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.footer-description{
+    font-size: 12.8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    line-height: 25px;
+}
+/* form */
+.email{
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 12.8px;
+    width: 100%;
+}
+.subscribe{
+    background-color: #d0a772;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 12.8px;
+    line-height: 25px;
+    width: 100%;
+}
+/* socials */
+
+.social{
+    margin-top: 32px;
+}
+.fab, .far{
+    font-weight: 400;
+}
+.fa, .fab, .fad, .fal, .far, .fas{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+*{
+    /* padding: 0;
+    margin: 0; */
+    box-sizing: border-box;
+}
+
+.copy-right{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 48px;
+    text-align: center;
+}
